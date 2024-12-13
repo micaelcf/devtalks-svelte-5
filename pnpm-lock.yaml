@@ -7,10 +7,17 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@steeze-ui/svelte-icon':
+        specifier: ^1.6.2
+        version: 1.6.2(svelte@5.10.1)
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.3
         version: 1.2.4(eslint@9.16.0(jiti@1.21.6))
+      '@steeze-ui/material-design-icons':
+        specifier: ^1.1.2
+        version: 1.1.2
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
         version: 3.3.1(@sveltejs/kit@2.10.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.10.1)(vite@6.0.3(jiti@1.21.6)(yaml@2.6.1)))(svelte@5.10.1)(vite@6.0.3(jiti@1.21.6)(yaml@2.6.1)))
@@ -415,6 +422,14 @@ packages:
     resolution: {integrity: sha512-ZvK2jBafvttJjoIdKm/Q/Bh7IJ1Ose9IBOwpOXcOvW3ikGTQGmKDgxTC6oCAzW6PynbkKP8+um1du81XJHZ0JA==}
     cpu: [x64]
     os: [win32]
+
+  '@steeze-ui/material-design-icons@1.1.2':
+    resolution: {integrity: sha512-p1csJ9RR8J2zG+ED3JJehVHxIi88B0ilUhg0ScbduVe54lgTZ1suAu5d94zOrBww/ImKDPhFshEXUWodVpELLw==}
+
+  '@steeze-ui/svelte-icon@1.6.2':
+    resolution: {integrity: sha512-Q2WP/RkM1JhMueX0FJogSj4J1bncSHaAiiPCqjcseRcHKqfpjYFPJa8bA50I+4KbyOVJ9fdUvTQ3ww9X0ITRxQ==}
+    peerDependencies:
+      svelte: ^5.0.0
 
   '@sveltejs/adapter-auto@3.3.1':
     resolution: {integrity: sha512-5Sc7WAxYdL6q9j/+D0jJKjGREGlfIevDyHSQ2eNETHcB1TKlQWHcAo8AS8H1QdjNvSXpvOwNjykDUHPEAyGgdQ==}
@@ -1711,6 +1726,12 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.28.1':
     optional: true
+
+  '@steeze-ui/material-design-icons@1.1.2': {}
+
+  '@steeze-ui/svelte-icon@1.6.2(svelte@5.10.1)':
+    dependencies:
+      svelte: 5.10.1
 
   '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.10.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.10.1)(vite@6.0.3(jiti@1.21.6)(yaml@2.6.1)))(svelte@5.10.1)(vite@6.0.3(jiti@1.21.6)(yaml@2.6.1)))':
     dependencies:
